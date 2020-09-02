@@ -2,9 +2,9 @@ const TelegramBot = require ('node-Telegram-bot.api');
 const dialogflow = require('./dialogflow');
 const youtube = require('./youtube');
 
-const Token = '937610458:AAFJhcQTtrxIYZVQvMlN9CL9oD4fPk7C-JI';
-
-const bot = new TelegramBot(token,{polling : true});
+const kconst
+botconst
+   new TelegramBot(token,{polling : true});
 
 bot.on('message', function(msg){
     const chatid = msg.chat.chatid;
